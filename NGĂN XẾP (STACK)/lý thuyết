@@ -1,0 +1,28 @@
+- Stack là một cấu trúc dữ liệu trừu tượng trong lập trình, hoạt động theo nguyên tắc "LIFO" (Last-In-First-Out), 
+tức là phần tử cuối cùng được đẩy vào stack sẽ là phần tử đầu tiên được lấy ra khỏi stack.(vào sao ra trước) 
+
+- Stack thường được biểu diễn dưới dạng một ngăn xếp các phần tử, tương tự như việc xếp các đĩa lên nhau. 
+Chỉ có thể truy cập phần tử ở đỉnh của stack, nghĩa là phần tử cuối cùng được thêm vào. 
+
+- Kiểu dữ liệu của stack không được định nghĩa sẵn trong ngôn ngữ lập trình. 
+Thay vào đó, stack thường được triển khai bằng cách sử dụng các cấu trúc dữ liệu có sẵn trong ngôn ngữ,
+chẳng hạn như danh sách liên kết, mảng, hoặc ngăn xếp dựa trên lớp.
+
+**Các phép toán chính trên stack bao gồm:
+1. `push(item)`: Thêm một phần tử vào đỉnh của stack.
+2. `pop()`: Loại bỏ và trả về phần tử ở đỉnh của stack.
+3. `peek()`: Trả về giá trị của phần tử ở đỉnh của stack mà không loại bỏ nó.
+4. `is_empty()`: Kiểm tra xem stack có rỗng hay không.
+5. `size()`: Trả về số lượng phần tử trong stack.
+
+
+**Stack thường được sử dụng trong nhiều bài toán và thuật toán. Một số ứng dụng phổ biến của stack bao gồm:
+- Quản lý các lời gọi hàm trong ngôn ngữ lập trình.
+- Đảo ngược một chuỗi ký tự hoặc danh sách.
+- Kiểm tra tính hợp lệ của biểu thức số học.
+- Tìm kiếm theo chiều sâu (DFS) trong đồ thị.
+- Lưu trữ lịch sử trạng thái trong các thuật toán tìm đường đi.
+
+
+Stack là một cấu trúc dữ liệu đơn giản nhưng hữu ích và quan trọng trong lập trình. Hiểu về cách hoạt động và sử dụng stack 
+sẽ giúp bạn giải quyết nhiều bài toán và xây dựng các thuật toán hiệu quả.

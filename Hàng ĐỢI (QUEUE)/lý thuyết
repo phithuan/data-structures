@@ -1,0 +1,15 @@
+- Hàng đợi (Queue) là một kiểu dữ liệu trừu tượng trong lập trình, hoạt động theo nguyên tắc "First-In-First-Out" (FIFO), 
+tức là phần tử được chèn vào hàng đợi trước đây sẽ được lấy ra trước phần tử được chèn vào sau. (vào trước ra trước)
+
+Các phép toán cơ bản trên hàng đợi gồm:
+
+1. Enqueue (Thêm vào hàng đợi): Thêm một phần tử vào cuối hàng đợi.
+2. Dequeue (Lấy ra khỏi hàng đợi): Lấy ra phần tử ở đầu hàng đợi và loại bỏ nó khỏi hàng đợi.
+3. Front (Phần tử đầu hàng đợi): Truy cập phần tử ở đầu hàng đợi mà không loại bỏ nó.
+4. IsEmpty (Kiểm tra rỗng): Kiểm tra xem hàng đợi có rỗng hay không.
+5. Size (Kích thước): Đếm số lượng phần tử hiện có trong hàng đợi.
+
+- Hàng đợi thường được sử dụng trong nhiều tình huống thực tế, như xử lý các tác vụ theo thứ tự đến, 
+quản lý các công việc đang chờ xử lý, xử lý các yêu cầu từ người dùng theo thứ tự đến, v.v.
+
+- Một số cài đặt của hàng đợi bao gồm sử dụng mảng (array) và danh sách liên kết (linked list).
